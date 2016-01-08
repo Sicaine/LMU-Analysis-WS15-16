@@ -11,7 +11,7 @@
 <body>
 	<h1>Analysis Script Status Page</h1>
 
-	Aktuelle Skriptversion <a href="https://lmu-analysis-ws15-16.herokuapp.com/helloworld.pdf">herunterladen</a>
+	Aktuelle Skriptversion <a href="https://lmu-analysis-ws15-16.herokuapp.com/Analysis_fuer_Informatiker_und_Statistiker_WS15_16">herunterladen</a>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>

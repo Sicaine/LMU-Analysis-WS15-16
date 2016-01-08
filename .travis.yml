@@ -2,7 +2,7 @@ install:
  - sudo apt-get update && sudo apt-get -q install texlive-fonts-recommended texlive-latex-extra texlive-fonts-extra dvipng texlive-latex-recommended
  
 script:
-  - pdflatex -halt-on-error helloworld.tex
+  - pdflatex -halt-on-error -jobname=Analysis_fuer_Informatiker_und_Statistiker_WS15_16 main.tex
   
 deploy:
   provider: heroku
