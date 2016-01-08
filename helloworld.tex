@@ -1,5 +1,34 @@
-\documentclass{article}
+\documentclass[oneside]{book}
+
+% Inportbereich fuer weitere Pakete
+\usepackage[utf8x]{inputenc} % notwendig fuer Umlaute
+\usepackage[a4paper, left=2.5 cm, right=2 cm, top=2.5 cm, bottom=3 cm]{geometry} % Legt Seitenraender fest, initialwerte online einfach uebernommen
+\usepackage{amsfonts} % bringts math symbols
+\usepackage[parfill]{parskip}
+
+\usepackage{titlesec}
+
+\titleformat{\paragraph}
+    {\normalfont\bfseries}
+    {}
+    {0pt}
+    {}
 
 \begin{document}
- Hello World!
+\title{Analysis für Informatiker und Statistiker}
+\author{Prof. Dr. Peter Pickl}
+\date{WS 15/16}
+\maketitle
+
+
+\include{natuerlicheZahlenVollstaendigeInduktion}
+
+\include{kommensurabilitaetUndProportionslehre}
+
+\include{gruppenUndKoerper}
+
+\include{maechtigkeitVonMengen}
+
+\include{lokaleUndGlobaleExtrema}
+
 \end{document}
