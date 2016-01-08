@@ -1,4 +1,4 @@
-# Collaboratives Git Projekt fuer das Analysis Script WS15/16 von Prof. Dr. Pickl an der LMU.
+# Analysis Script WS15/16 von Prof. Dr. Pickl an der LMU
 
 ## Das PDF
 Das fertige PDF wird von Travis zusammengebaut. Du findet das aktuelle PDF [hier](https://lmu-analysis-ws15-16.herokuapp.com/Analysis_fuer_Informatiker_und_Statistiker_WS15_16.pdf). Eine Statuspage findet ihr [hier](https://lmu-analysis-ws15-16.herokuapp.com/).
