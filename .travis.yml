@@ -1,5 +1,5 @@
 install:
- - sudo apt-get -q install texlive
+ - sudo apt-get -q install texlive-fonts-recommended texlive-latex-extra texlive-fonts-extra dvipng texlive-latex-recommended
  
 script:
   - pdflatex -halt-on-error helloworld.tex
