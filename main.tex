@@ -8,6 +8,9 @@
 
 \usepackage{titlesec}
 
+\usepackage{hyperref} %macht klickbares Inhaltsverzeichnis möglich
+\usepackage[ngerman]{babel} %bringt deutsche Kapitelmarkierungen etc.
+
 \titleformat{\paragraph}
     {\normalfont\bfseries}
     {}
@@ -20,6 +23,10 @@
 \date{WS 15/16}
 \maketitle
 
+%für das Inhaltsverzeichnis
+\newpage
+\tableofcontents
+\newpage
 
 \include{natuerlicheZahlenVollstaendigeInduktion}
 
