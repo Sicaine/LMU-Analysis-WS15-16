@@ -1,0 +1,25 @@
+\chapter{Vollständige Induktion}
+Bei der V.I. handelt es sich um ein Beweisprinzip. Ermoeglicht den Beweis von Aussagen die fuer alle natuerlichen Zahlen gelten sollen.\newline
+Z.B.: $\sum_{n}^{j=1} j = \frac{n(n+1)}{2} gitl fuer alle n \in \mathbb{N}$\newline
+Es beruht auf dem Induktionsaxiom:\newline
+Sei X die Menge aller Zahlen fuer die, die Aussage gueltig ist.\newline
+Beim P\_V.I. beweist man nun:
+
+\begin{enumerate}
+\item[a)] Diese Aussage gilt fuer n=1 (d.h. $1 \in X$)
+\item[b)] Falls die Aussage fuer irgendein n gilt, gilt sie auch fuer n+1 ($n \in \mathbb{N}$) ($n' \in \mathbb{N}$)
+\end{enumerate}
+X erfuellt die Eigenschaften aus axiom 5 $\Rightarrow \mathbb{N} \subset X$\newline
+Durchfuehrung anhand des Beispieles:
+\begin{enumerate}
+	\item[a)] Es gilt zu zeigen (z.z.), dass 
+		\begin{align*}
+		 \sum_{1}^{j=1} y &\stackrel{?}{=} \frac{1 (1+1)}{2}  \\
+		 1 &= 1
+		\end{align*}
+	\item[b)] Wir nehmen an die Aussage gilt fuer n:\newline
+		$\sum_{n}^{j=1} j = \frac{n(n+1)}{2}$\newline
+		Es ist z.z., dass die Aussage fuer n+1 gilt also
+		$\sum_{n+1}^{j=1} j = \frac{(n+1)((n+1)+1)}{2} = \frac{(n+1)(n+2)}{2}$\newline
+		$\sum_{n+1}^{j=1} j = \sum_{n}^{j=1} j+(n+1) \stackrel{Wichtigster Schritt!}{=} \frac{n(n+1)}{2} + n + 1 = \frac{n(n+1)+2(n+1)}{2} = \frac{(n+1)(n+2)}{2}\checkmark$
+\end{enumerate}
